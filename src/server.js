@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Welcome!, Our mySQL server");
+    res.send("Welcome!, Our PostgreSQL server");
 })
 
 const PORT = process.env.PORT || 5000;
